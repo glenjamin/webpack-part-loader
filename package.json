@@ -1,0 +1,34 @@
+{
+  "name": "part-loader",
+  "version": "0.1.0",
+  "description": "A webpack loading for extracting a part of a file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glenjamin/webpack-part-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "source"
+  ],
+  "author": "Glen Mailer <glen@stainlessed.co.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/glenjamin/webpack-part-loader/issues"
+  },
+  "homepage": "https://github.com/glenjamin/webpack-part-loader#readme",
+  "dependencies": {
+    "loader-utils": "^0.2.14"
+  },
+  "devDependencies": {
+    "@glenjamin/eslint-config": "^1.1.0",
+    "eslint": "^2.4.0",
+    "mocha": "^2.4.5",
+    "webpack": "^1.12.15"
+  }
+}
