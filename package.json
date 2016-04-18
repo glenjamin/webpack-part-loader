@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@glenjamin/eslint-config": "^1.1.0",
-    "eslint": "^2.4.0",
+    "eslint": "2.4.0",
     "mocha": "^2.4.5",
     "raw-loader": "^0.5.1",
     "rimraf": "^2.5.2",
