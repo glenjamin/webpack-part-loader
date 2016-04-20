@@ -25,10 +25,17 @@ var c = 3;
 
 example2.js
 ```js
-var stuff = require('!!raw!part?token=abc!./example1.js');
+var stuff = require('!!raw!part?token=snip!./example1.js');
 
 stuff === 'var b = 2;'
 ```
+
+There are two querystring parameters accepted by the loader
+
+* `token` - required, used to match comment lines which start and end the part to be captured
+* `indent` - optional, can be used to add indentation to each captured line
+
+See the [tests](./test/test.js) for other examples.
 
 ## License
 
