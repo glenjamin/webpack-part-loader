@@ -1,6 +1,6 @@
 {
   "name": "part-loader",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A webpack loading for extracting a part of a file.",
   "main": "index.js",
   "scripts": {
